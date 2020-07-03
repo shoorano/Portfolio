@@ -3,20 +3,28 @@ import Background from './IntroBackground.jpg'
 import Selfie from './selfie.jpg'
 import './Introduction.css'
 
+const h = {
+   color: "Black",
+   fontFamily: "Comic Sans MS, cursive, sans-serif",
+   fontSize: "3vw"
+}
+
+const p = {
+  fontSize: "2vw"
+}
+
+const img = {
+  width: "23vh"
+}
+
 const Introduction = () => {
   return (
-    <div
-      className="Introduction pa4 ma0 vh-40 ba"
-      style={{
-               background: "white",
-               backgroundSize: "100% 100%"
-             }}
-    >
-      <div className="flex pa5">
-        <img className="fl w-auto vh-25 shadow-5 grow" src={Selfie} alt="" />
-        <div>
-          <h1 className="flex-auto fl h-20 w-100 ma0 pa3">Dan Willoughby</h1>
-          <p className="flex-auto fl h-80 w-100 ma2 pa0 tc">
+    <div className="Introduction pa0 ma0 center" style={{ height: "95vh", background: "linear-gradient( gray , white)" }}>
+      <div className="pa0 center pa4" style={{width: "80%"}}>
+        <img className="grow pa3 ba bw2 b--white br-100" style={img}  src={Selfie} alt="" />
+        <div className="w-90 pa2 center">
+          <p className=" fl h-10 w-100 ma0 pa0 tc" style={h}>Dan Willoughby</p>
+          <p className=" fl h-90 w-100 ma0 pa2 tc" style={p}>
               {
                 `I am an aspiring web developer with a background
                 in physics and data analysis. I build web
