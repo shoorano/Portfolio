@@ -6,10 +6,16 @@ const h = {
    fontSize: "1.5vw"
 }
 
+const footer = {
+  background: "#008080",
+  position: "sticky",
+  bottom: "0"
+}
+
 const Footer = () => {
   return (
-    <div className="Footer dib pa0 w-100" style={{background: "#008080"}}>
-      <p className="fl w-third" style={h}>Dan Willoughby</p>
+    <div className="Footer dib pa0 w-100" style={footer}>
+      <p className="fl w-third" style={h}>&#169; 2020 Daniel Martin Willoughby </p>
       <p className="fl w-third" style={h}>Mobile: 07557038064</p>
       <p className="fl w-third" style={h}>Email: danwilloughby2@gmail.com</p>
     </div>

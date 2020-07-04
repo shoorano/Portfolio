@@ -1,7 +1,5 @@
 import React from 'react';
-import Background from './IntroBackground.jpg'
 import Selfie from './selfie.jpg'
-import './Introduction.css'
 
 const h = {
    color: "Black",
@@ -21,7 +19,7 @@ const Introduction = () => {
   return (
     <div className="Introduction pa0 ma0 center" style={{ height: "95vh", background: "linear-gradient( gray , white)" }}>
       <div className="pa0 center pa4" style={{width: "80%"}}>
-        <img className="grow pa3 ba bw2 b--white br-100" style={img}  src={Selfie} alt="" />
+        <img className="grow pa2 ba bw2 b--white br4" style={img}  src={Selfie} alt="" />
         <div className="w-90 pa2 center">
           <p className=" fl h-10 w-100 ma0 pa0 tc" style={h}>Dan Willoughby</p>
           <p className=" fl h-90 w-100 ma0 pa2 tc" style={p}>
