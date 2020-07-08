@@ -1,5 +1,7 @@
 import React from 'react';
-import Projects from "../Projects/Projects.js"
+import Projects from "../Projects/Projects.js";
+import quote from "./quote.jpg";
+import scroll from "./scroll.jpg";
 
 const h = {
    color: "Black",
@@ -35,14 +37,14 @@ const ProjectList = () => {
             className=""
             name='Quote Generator'
             link='https://shoorano.github.io/quote-generator/'
-            image='src/Components/Projects/quote.jpg'
+            image={quote}
             desc='Quote generator which fetches from an API and uses DOM manipulation to update, and or tweet the quote.'
           />
           <Projects
             className=""
             name='Infinite Scroll'
             link='https://shoorano.github.io/infinite-scroll/'
-            image='src/Components/Projects/scroll.jpg'
+            image={scroll}
             desc='JS app which continually updates images pulled from Unsplash API as the user scrolls.'
           />
       </div>
