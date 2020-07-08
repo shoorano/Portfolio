@@ -35,14 +35,14 @@ const ProjectList = () => {
             className=""
             name='Quote Generator'
             link='https://shoorano.github.io/quote-generator/'
-            image='quote.jpg'
+            image='src/Components/Projects/quote.jpg'
             desc='Quote generator which fetches from an API and uses DOM manipulation to update, and or tweet the quote.'
           />
           <Projects
             className=""
             name='Infinite Scroll'
             link='https://shoorano.github.io/infinite-scroll/'
-            image='scroll.jpg'
+            image='src/Components/Projects/scroll.jpg'
             desc='JS app which continually updates images pulled from Unsplash API as the user scrolls.'
           />
       </div>
