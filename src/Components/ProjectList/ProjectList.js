@@ -33,31 +33,17 @@ const ProjectList = () => {
           />
           <Projects
             className=""
-            name='nst-art'
-            link='https://nst-art.herokuapp.com'
-            image='https://www.americanscientist.org/sites/americanscientist.org/files/2019-107-1-18-elgammal-2-natural.jpg'
-            desc='React web app which utilises a deeplearning API and Express.js backend.'
+            name='Quote Generator'
+            link='https://shoorano.github.io/quote-generator/'
+            image='./images/quote.jpg'
+            desc='Quote generator which fetches from an API and uses DOM manipulation to update, and or tweet the quote.'
           />
           <Projects
             className=""
-            name='RoboFriends'
-            link='https://shoorano.github.io/roboFriends/'
-            image='https://robohash.org/12ggg34sd5'
-            desc='Basic React app. Dynamic interface which uses DOM manipulation to edit what is seen on screen.'
-          />
-          <Projects
-            className=""
-            name='nst-art'
-            link='https://nst-art.herokuapp.com'
-            image='https://www.americanscientist.org/sites/americanscientist.org/files/2019-107-1-18-elgammal-2-natural.jpg'
-            desc='React web app which utilises a deeplearning API and Express.js backend.'
-          />
-          <Projects
-            className=""
-            name='RoboFriends'
-            link='https://shoorano.github.io/roboFriends/'
-            image='https://robohash.org/1234dff5'
-            desc='Basic React app. Dynamic interface which uses DOM manipulation to edit what is seen on screen.'
+            name='Infinite Scroll'
+            link='https://shoorano.github.io/infinite-scroll/'
+            image='./images/scroll.jpg'
+            desc='JS app which continually updates images pulled from Unsplash API as the user scrolls.'
           />
       </div>
     </div>
