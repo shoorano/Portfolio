@@ -5,7 +5,7 @@ import scroll from "./scroll.jpg";
 
 const h = {
    color: "Black",
-   fontFamily: "Comic Sans MS, cursive, sans-serif",
+   fontFamily: "sans-serif",
    fontSize: "3vw"
 
 }
@@ -21,7 +21,7 @@ const ProjectList = () => {
   return (
     <div className="ProjectList">
       <p className="" style={h}>Projects</p>
-      <div className="center ba b--red bw2" style={div}>
+      <div className="center" style={div}>
           <Projects
             className=""
             name='nst-art'

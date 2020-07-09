@@ -2,7 +2,7 @@ import React from 'react';
 
 const h = {
    color: "Black",
-   fontFamily: "Comic Sans MS, cursive, sans-serif"
+   fontFamily: "sans-serif"
 }
 
 const p = {
