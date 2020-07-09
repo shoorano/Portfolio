@@ -20,10 +20,7 @@ const Header = () => {
         <a href="https://github.com/shoorano" style={linkText}>GitHub</a>
       </h3>
       <h3 className="tc fl w-15 br3 pa3 ma0 grow">
-        <a href="" style={linkText}>LinkedIn</a>
-      </h3>
-      <h3 className="tc fl w-15 br3 pa3 ma0 grow">
-        <a href="" style={linkText}>Email</a>
+        <a href="https://www.linkedin.com/in/dan-willoughby-092539196/" style={linkText}>LinkedIn</a>
       </h3>
       <h3 className="tr fl br3 pa3 ma0 grow flex-auto">
         <a href="" style={linkText}>Resumé</a>

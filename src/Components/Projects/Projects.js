@@ -10,13 +10,22 @@ const p = {
   textSize: "3.5vh"
 }
 
+const img = {
+  height: "300px"
+}
+
+const div = {
+  width: "480px"
+}
+
+
 const Projects = ({name, link, image, desc}) => {
   return (
-    <div className="Projects br3 pa1 ma3 shadow-5 dib flex-wrap center" style={{width: "35vh"}}>
+    <div className="Projects br3 pa3 ma3 shadow-5 center" style={div}>
       <a className="" href={link} style={{textDecoration: "none"}}>
-        <img className="grow dib" src={image} alt="Error" />
-        <h1 className="grow flex-auto dib" style={h}>{name}</h1>
-        <p className="pa0 center dib pa2 ma0" style={p}>{desc}</p>
+        <img className="grow center" src={ image } alt="Error" style={ img } />
+        <h1 className="grow" style={h}>{ name }</h1>
+        <p className="" style={p}>{ desc }</p>
       </a>
     </div>
   );

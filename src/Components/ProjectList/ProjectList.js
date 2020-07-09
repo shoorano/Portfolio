@@ -11,14 +11,17 @@ const h = {
 }
 
 const div = {
-  width: "70vw"
+  
+  display: "flex",
+  flexWrap: "wrap",
+  width: "70%"
 }
 
 const ProjectList = () => {
   return (
     <div className="ProjectList">
       <p className="" style={h}>Projects</p>
-      <div className="dib flex-wrap b--gold w-auto bw3" style={div}>
+      <div className="center ba b--red bw2" style={div}>
           <Projects
             className=""
             name='nst-art'
@@ -31,7 +34,7 @@ const ProjectList = () => {
             name='RoboFriends'
             link='https://shoorano.github.io/roboFriends/'
             image='https://robohash.org/12345'
-            desc='Basic React app. Dynamic interface which uses DOM manipulation to edit what is seen on screen.'
+            desc='Basic React app. Dynamic interface which changes images displayed as search input is updated.'
           />
           <Projects
             className=""
