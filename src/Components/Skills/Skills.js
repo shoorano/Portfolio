@@ -9,7 +9,7 @@ const div2 = {
 
 const h = {
    color: "Black",
-   fontFamily: "Comic Sans MS, cursive, sans-serif",
+   fontFamily: "sans-serif",
    fontSize: "3vw"
 }
 

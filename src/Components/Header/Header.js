@@ -1,4 +1,6 @@
 import React from 'react';
+import pdf from '../files/cv.pdf';
+
 
 const linkText = {
   textDecoration: "none",
@@ -12,7 +14,6 @@ const header =  {
   background: "#008080"
 }
 
-
 const Header = () => {
   return (
     <div className="Header br2 w-100 flex" style={header}>
@@ -23,7 +24,7 @@ const Header = () => {
         <a href="https://www.linkedin.com/in/dan-willoughby-092539196/" style={linkText}>LinkedIn</a>
       </h3>
       <h3 className="tr fl br3 pa3 ma0 grow flex-auto">
-        <a href="" style={linkText}>Resumé</a>
+        <a href={pdf} target = "_blank" style={linkText}>Resumé</a>
       </h3>
     </div>
   );

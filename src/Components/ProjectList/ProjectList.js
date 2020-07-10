@@ -27,7 +27,7 @@ const ProjectList = () => {
             name='nst-art'
             link='https://nst-art.herokuapp.com'
             image='https://www.americanscientist.org/sites/americanscientist.org/files/2019-107-1-18-elgammal-2-natural.jpg'
-            desc='React web app which utilises a deeplearning API and Express.js backend.'
+            desc='React web app which utilises a deeplearning API and Express.js backend. Has a registration and sign in option which keeps a history of the number of times a user has submitted an image.'
           />
           <Projects
             className=""
