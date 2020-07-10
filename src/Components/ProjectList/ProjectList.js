@@ -6,12 +6,10 @@ import scroll from "./scroll.jpg";
 const h = {
    color: "Black",
    fontFamily: "sans-serif",
-   fontSize: "3vw"
-
+   fontSize: "6vw"
 }
 
 const div = {
-  
   display: "flex",
   flexWrap: "wrap",
   width: "70%"
@@ -20,7 +18,7 @@ const div = {
 const ProjectList = () => {
   return (
     <div className="ProjectList">
-      <p className="" style={h}>Projects</p>
+      <p className="pa2" style={h}>Projects</p>
       <div className="center" style={div}>
           <Projects
             className=""

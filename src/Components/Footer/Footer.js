@@ -1,23 +1,16 @@
 import React from 'react';
-
-const h = {
-   color: "white",
-   fontFamily: "Comic Sans MS, cursive, sans-serif",
-   fontSize: "1.5vw"
-}
+import './Footer.css';
 
 const footer = {
-  background: "#008080",
-  position: "sticky",
-  bottom: "0"
+  background: "#008080"
 }
 
 const Footer = () => {
   return (
-    <div className="Footer dib pa0 w-100" style={footer}>
-      <p className="fl w-third" style={h}>&#169; 2020 Daniel Martin Willoughby </p>
-      <p className="fl w-third" style={h}>Mobile: 07557038064</p>
-      <p className="fl w-third" style={h}>Email: danwilloughby2@gmail.com</p>
+    <div className="Footer w-100 dib ma0 pa1 flex" style={footer}>
+      <p className="footer-p fl w-third">&#169;2020 Dan Willoughby</p>
+      <p className="footer-p fl w-third">+44 (0) 7557038064</p>
+      <p className="footer-p fl w-third">danwilloughby2@gmail.com</p>
     </div>
   );
 }
